@@ -90,4 +90,4 @@ This command copies WhereAmI.java to the home directory on the server (overwriti
 
 `scp WhereAmI.java cs15lwi22abr@ieng6.ucsd.edu:~/; ssh cs15lwi22abr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
 
-![Screenshot 8](lab-report-1/1-8.png)
+![Screenshot 8](lab-report-1/1-8.PNG)
