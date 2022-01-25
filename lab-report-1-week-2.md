@@ -94,4 +94,4 @@ This command copies WhereAmI.java to the home directory on the server (overwriti
 
 I was able to save 9 keystrokes total by chaining commands together. Without chaining, it would take 127 keystrokes (including clicks), versus 118 with chaining.
 
-![Screenshot 8](lab-report-1/1-7.PNG)
+![Screenshot 8](lab-report-1/1-7.png)
