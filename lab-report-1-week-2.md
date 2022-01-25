@@ -73,7 +73,9 @@ Next, compile and run the Java file on both client and server.
 ![Screenshot 6](lab-report-1/1-6.png)
 
 ## Setting an SSH Key
-On the client, run `ssh-keygen` to create a public-private pair of SSH keys. If you're on Windows, follow the instructions for [`ssh-add`](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) under "User key generation".
+On the client, run `ssh-keygen` to create a public-private pair of SSH keys. If you're on Windows, follow the instructions for [`ssh-add`](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) under "User key generation". Make sure to run this in Powershell as an administrator *after* you make new SSH keys.
+
+![Screenshot 9](lab-report-1/1-9.png)
 
 Copy the public SSH key at `<user account>/.ssh/id_rsa.pub` on your machine to the directory `~/.ssh/authorized_keys` on the server with the command:
 
@@ -81,7 +83,7 @@ Copy the public SSH key at `<user account>/.ssh/id_rsa.pub` on your machine to t
 
 Try using `ssh` and `scp` from this client without using your password.
 
-![Screenshot 7](lab-report-1/1-7.png)
+![Screenshot 7](lab-report-1/1-8.png)
 
 ## Optimizing Remote Running
 Commands can be chained (run one after another) using a semicolon. We can run a command on the server (after connecting with SSH) by immediately enclosing it in double quotes (no semicolon after `ssh`).
@@ -90,4 +92,6 @@ This command copies WhereAmI.java to the home directory on the server (overwriti
 
 `scp WhereAmI.java cs15lwi22abr@ieng6.ucsd.edu:~/; ssh cs15lwi22abr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
 
-![Screenshot 8](lab-report-1/1-8.PNG)
+I was able to save 9 keystrokes total by chaining commands together. Without chaining, it would take 127 keystrokes (including clicks), versus 118 with chaining.
+
+![Screenshot 8](lab-report-1/1-7.PNG)
