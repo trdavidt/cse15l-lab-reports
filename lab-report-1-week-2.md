@@ -83,7 +83,7 @@ Copy the public SSH key at `<user account>/.ssh/id_rsa.pub` on your machine to t
 
 Try using `ssh` and `scp` from this client without using your password.
 
-![Screenshot 7](lab-report-1/1-8.png)
+![Screenshot 8](lab-report-1/1-8.png)
 
 ## Optimizing Remote Running
 Commands can be chained (run one after another) using a semicolon. We can run a command on the server (after connecting with SSH) by immediately enclosing it in double quotes (no semicolon after `ssh`).
@@ -94,4 +94,4 @@ This command copies WhereAmI.java to the home directory on the server (overwriti
 
 I was able to save 9 keystrokes total by chaining commands together. Without chaining, it would take 127 keystrokes (including clicks), versus 118 with chaining.
 
-![Screenshot 8](lab-report-1/1-7.png)
+![Screenshot 7](lab-report-1/1-7.png)
