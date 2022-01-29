@@ -24,11 +24,13 @@ The seventh test for `test-file7.md` failed. The symptom was an infinite loop. T
 
 Test file with failing input: [test-file7.md](https://github.com/trdavidt/markdown-parse/blob/main/test-file8.md)
 
+![Failure 2](lab-report-2/2-7.png)
+
 The eighth test failed with the file `test-file8.md`. The symptom was identical to the seventh test's symptom (an infinite loop). This was probably the same bug as the previous failure-inducing test, since both files ended with an open bracket. The fix was identical, both tests passed when we rewrote the `getLinks` methods with a different approach.
 
 ![Fix 3](lab-report-2/2-4.png)
 
-## Failure-Inducing Input 4 
+## Failure-Inducing Input 4
 
 In case the third one doesn't count (it's really similar to the second failure-inducing input), here's another, but from the Week 3 lab.
 
