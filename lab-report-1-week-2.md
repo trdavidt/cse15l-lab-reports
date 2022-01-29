@@ -2,7 +2,7 @@
 
 Hello, future CSE 15L student! This tutorial will cover remote access to a course-specific account on `ieng6`.
 
-Contents: 
+Contents:
 
 1. [Installing VS Code](#installing-vs-code)
 2. [Remotely Connecting](#remotely-connecting)

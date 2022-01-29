@@ -1,3 +1,5 @@
 Hello, world!
 ---
-Here are some changes made *offline* and pushed to GitHub.
+Sitemap: 
+- [Lab Report 1](/lab-report-1-week-2.html)
+- [Lab Report 2](/lab-report-5-week-4.html)
