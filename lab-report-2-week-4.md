@@ -22,7 +22,7 @@ The seventh test for `test-file7.md` failed. The symptom was an infinite loop. T
 
 ## Failure-Inducing Input 3
 
-Test file with failing input: [test-file7.md](https://github.com/trdavidt/markdown-parse/blob/main/test-file8.md)
+Test file with failing input: [test-file8.md](https://github.com/trdavidt/markdown-parse/blob/main/test-file8.md)
 
 ![Failure 2](lab-report-2/2-7.png)
 
@@ -34,7 +34,7 @@ The eighth test failed with the file `test-file8.md`. The symptom was identical 
 
 In case the third one doesn't count (it's really similar to the second failure-inducing input), here's another, but from the Week 3 lab.
 
-Test file with failing input: [test-file7.md](https://github.com/trdavidt/markdown-parse/blob/main/more-tests.md)
+Test file with failing input: [more-tests.md](https://github.com/trdavidt/markdown-parse/blob/main/more-tests.md)
 
 The symptom here was printing out the link name instead of getting the link. The corresponding bug was failing to check for an extra right bracket in the link name before adding the link to `toReturn`.
 
