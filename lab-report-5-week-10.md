@@ -65,7 +65,7 @@ for(int periodIndex: periodList) {
 }
 ```
 
-## Test 2 (`500.md`)
+## Test 2 (`479.md`)
 
 I expected my implementation to have the output below (no links). The output of Joe's repo is correct for this test file, since it includes it indicates there are no valid links.
 
